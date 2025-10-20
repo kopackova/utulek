@@ -1,4 +1,2 @@
 # Útulek
-Normalni text
-**Tucne**
-*Kurziva*
+Použití bootstrap pro projekt Chovatelské stanice horského skotu.
