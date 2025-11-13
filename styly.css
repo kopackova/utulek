@@ -10,14 +10,27 @@
   .hero-background {
     background-image: 
       linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
-      url('horska_krava.jpg'); 
+      url('images/horska_krava.jpg'); 
     background-size: cover; 
     background-position: center;
   }
+.mladata-background{
+  background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+      url('images/bg-mlade.jpg'); 
+    background-size: cover; 
+    background-position: center 30%;
+}
 
 .card-img-top {
     height: 200px;
     object-fit: cover; 
     width: 100%;
   }
+
+  .card-img-top {
+    height: 300px;       
+    object-fit: cover;   
+  }
+  
   
