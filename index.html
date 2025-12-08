@@ -6,6 +6,13 @@
   <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styly.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kite+One&family=Lexend+Deca:wght@100..900&family=Limelight&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -44,7 +51,7 @@
   <div class="hero-section">
     <div class="container">
       <div class="col-lg-6 text-white">
-        <h1>Alpský vrch</h1>
+        <h1 class="display-1 fw-bold mb-3">Alpský vrch</h1>
         <h2>Pořiďte si také svého skota</h2>
         <a href="kontakty_rezervace.html#formular" class="btn btn-outline-light">To chci!</a>
       </div>
@@ -70,31 +77,31 @@
     </div>
 
     <div class="row pb-5 text-center">
-      <h2>Náš tým</h2>
+      <h1>Náš tým</h1>
     </div>
 
-    <div class="row py-5">
-      <div class="col-lg-4 d-flex align-items-start">
-        <img src="images/farmarka1.jpg" class="me-3" style="width: 120px; height: auto;" alt="">
+    <div class="row py-5 text-center">
+      <div class="col-lg-4">
+        <img src="images/farmarka1.jpg" class="img-fluid mb-3 rounded-circle" style="width: 120px;" alt="">
         <div>
           <h4>Anabell</h4>
           <p>Zakladatelka, milovnice přírody a zdatná ošetřovatelka.</p>
         </div>
       </div>
 
-      <div class="col-lg-4 d-flex align-items-start">
-        <img src="images/farmar.jpg" class="me-3" style="width: 120px; height: auto;" alt="">
+      <div class="col-lg-4">
+        <img src="images/farmar.jpg" class="img-fluid mb-3 rounded-circle" style="width: 120px;" alt="">
         <div>
-          <h4>Anabell</h4>
-          <p>Zakladatelka, milovnice přírody a zdatná ošetřovatelka.</p>
+          <h4>Rudolf</h4>
+          <p>Expert na péči o zvířata a udržitelné hospodaření.</p>
         </div>
       </div>
 
-      <div class="col-lg-4 d-flex align-items-start">
-        <img src="images/farmarka2.jpg" class="me-3" style="width: 120px; height: auto;" alt="">
+      <div class="col-lg-4">
+        <img src="images/farmarka2.jpg" class="img-fluid mb-3 rounded-circle" style="width: 120px;" alt="">
         <div>
-          <h4>Anabell</h4>
-          <p>Zakladatelka, milovnice přírody a zdatná ošetřovatelka.</p>
+          <h4>Sofie</h4>
+          <p>Milovnice koní, organizátorka farmářských dnů.</p>
         </div>
       </div>
 
@@ -112,9 +119,15 @@
         <div class="col-lg-6">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Přístup</h5>
-              <p class="card-text">Vyžaduje dostatek prostoru a pastvy – není vhodný do malých výběhů.</p>
-              <a href="info.html" class="card-link">Číst dál</a>
+              <div class="d-flex">
+                <img src="images/pictogram_cowface.jpg" class="img-fluid mb-3 " style="width: 170px;" alt="">
+                <div>
+                  <h5 class="card-title"><strong>Chov</strong></h5>
+                  <p class="card-text">Naše krávy rostou v čistém horském prostředí, které se promítá do výjimečné
+                    kondice i kvality.</p>
+                  <a href="info.html" class="btn btn-outline-dark mt-3">Číst dál</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -122,14 +135,50 @@
         <div class="col-lg-6">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Přístup</h5>
-              <p class="card-text">Vyžaduje dostatek prostoru a pastvy – není vhodný do malých výběhů.</p>
-              <a href="info.html" class="card-link">Číst dál</a>
+              <div class="d-flex">
+                <img src="images/pictogram_hill.jpg" class="img-fluid mb-3 " style="width: 170px;" alt="">
+                <div>
+                  <h5 class="card-title"><strong>Prostředí</strong></h5>
+                  <p class="card-text">Volný pohyb, pestrá pastva a respekt ke zvířatům. To je základ, na kterém
+                    stavíme.</p>
+                  <a href="info.html" class="btn btn-outline-dark mt-3">Číst dál</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="d-flex">
+                <img src="images/pictogram_farmar.jpg" class="img-fluid mb-3 " style="width: 170px;" alt="">
+                <div>
+                  <h5 class="card-title"><strong>Přístup</strong></h5>
+                  <p class="card-text">Známe každé zvíře a stojíme si za tím, co děláme – bez anonymních velkochovů.</p>
+                  <a href="info.html" class="btn btn-outline-dark mt-3">Číst dál</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="d-flex">
+                <img src="images/pictogram_produkty.jpg" class="img-fluid mb-3 " style="width: 170px;" alt="">
+                <div>
+                  <h5 class="card-title"><strong>Produkty</strong></h5>
+                  <p class="card-text">Poctivý původ, jasná pravidla a kvalita, kterou poznáte na první pohled i chuť.
+                  </p>
+                  <a href="info.html" class="btn btn-outline-dark mt-3">Číst dál</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -206,31 +255,31 @@
 
   <footer class="bg-dark text-white p-5">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 pb-4">
-                <h4 class="py-3">Chovatelská stanice Alpský Vrch</h4>
-                <button type="button" class="btn btn-outline-light">Formulář rezervace</button>
-            </div>
-            <div class="col-md-4">
-                <h4>Kontakty</h4>
-                <p>Telefon: +420 777 123 456
-                    <br>E-mail: info@highlandfarm.cz
-                    <br>Facebook: facebook.com/highlandfarmcz
-                    <br>Instagram: @highlandfarm.cz
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h4>Adresa</h4>
-                <p>Skotská 12, 739 92 Beskydy, Česká republika
-                    <br>Provozní doba:
-                    <br>Po–Pá: 9:00–17:00
-                    <br>So–Ne: dle domluvy
-
-                </p>
-            </div>
+      <div class="row">
+        <div class="col-md-4 pb-4">
+          <h4 class="py-3">Chovatelská stanice Alpský Vrch</h4>
+          <button type="button" class="btn btn-outline-light">Formulář rezervace</button>
         </div>
+        <div class="col-md-4">
+          <h4>Kontakty</h4>
+          <p>Telefon: +420 777 123 456
+            <br>E-mail: info@highlandfarm.cz
+            <br>Facebook: facebook.com/highlandfarmcz
+            <br>Instagram: @highlandfarm.cz
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h4>Adresa</h4>
+          <p>Skotská 12, 739 92 Beskydy, Česká republika
+            <br>Provozní doba:
+            <br>Po–Pá: 9:00–17:00
+            <br>So–Ne: dle domluvy
+
+          </p>
+        </div>
+      </div>
     </div>
-</footer>
+  </footer>
 
 </body>
 
