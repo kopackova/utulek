@@ -1,72 +1,132 @@
-*{margin: 0%;
-  padding: 0%;}
+* {
+  margin: 0%;
+  padding: 0%;
+}
 
 .hero-overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
-  .hero-background {
-    background-image: 
-      linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
-      url('images/horska_krava.jpg'); 
-    background-size: cover; 
-    background-position: center;
-  }
-.mladata-background{
-  background-image: 
-      linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
-      url('images/bg-mlade.jpg'); 
-    background-size: cover; 
-    background-position: center 30%;
+.hero-background {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url('images/horska_krava.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.mladata-background {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url('images/bg-mlade.jpg');
+  background-size: cover;
+  background-position: center 30%;
 }
 
 .card-img-top {
-    height: 200px;
-    object-fit: cover; 
-    width: 100%;
-  }
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
 
-  .card-img-top {
-    height: 300px;       
-    object-fit: cover;   
-  }
-  
-  .cow_drawing{
-    height: 500px;
-    display: flex;
-    justify-self: center;
-  }
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
 
-  .hero-section{
-    background-image: 
-      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url('images/ester.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 120px 0;
-  }
+.cow_drawing {
+  height: 500px;
+  display: flex;
+  justify-self: center;
+}
 
-  /* .hero-section {
-    
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  
-    padding: 120px 0;
-    color: white;
-  } */
-  
+.hero-section {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('images/ester.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 0;
+}
 
-  .fs-max {
-    font-size: 10rem;
-  }
+#carouselExampleFade{
+  height: auto;
+}
 
-  body{
-    font-family: 'Lexend Deca', sans-serif;
-  }
-   footer{
-    font-family: 'Lexend Deca', sans-serif;
-   }
+.team-card {
+  transition: all 0.3s ease;
+}
+
+.team-card:hover {
+  background-color: lightgray !important;
+  color: #181717 !important;
+}
+
+/* .blob {
+  aspect-ratio: 1;
+  clip-path: shape(from 59.72% 97.00%,curve to 46.91% 94.94% with 53.08% 98.96%,curve to 35.11% 88.86% with 40.73% 90.92%,curve to 22.12% 85.73% with 29.49% 86.81%,curve to 11.92% 78.27% with 14.75% 84.65%,curve to 7.82% 65.47% with 9.10% 71.88%,curve to 3.36% 52.54% with 6.55% 59.06%,curve to 4.60% 40.16% with 0.17% 46.01%,curve to 11.28% 28.26% with 9.03% 34.32%,curve to 18.75% 18.40% with 13.54% 22.21%,curve to 28.59% 9.19% with 23.96% 14.59%,curve to 40.10% 2.97% with 33.22% 3.80%,curve to 53.49% 3.99% with 46.99% 2.14%,curve to 65.94% 8.30% with 60.00% 5.85%,curve to 76.90% 14.68% with 71.87% 10.75%,curve to 87.04% 23.03% with 81.93% 18.62%,curve to 95.45% 33.64% with 92.16% 27.45%,curve to 98.55% 46.85% with 98.75% 39.83%,curve to 96.98% 60.67% with 98.35% 53.87%,curve to 89.37% 71.35% with 95.62% 67.46%,curve to 78.93% 79.44% with 83.12% 75.24%,curve to 70.55% 89.34% with 74.74% 83.64%,curve to 59.72% 97.00% with 66.36% 95.04%);
+} */
+
+
+
+.bg-dark {
+  background-color: #181717 !important;
+}
+
+
+
+.fs-max {
+  font-size: 10rem;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+footer {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.custom-shape-divider-top-1765802617 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1765802617 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 101px;
+}
+
+.custom-shape-divider-top-1765802617 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1765803793 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1765803793 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 97px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1765803793 .shape-fill {
+  fill: #FFFFFF;
+}
