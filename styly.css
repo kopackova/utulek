@@ -17,6 +17,10 @@
   background-position: center;
 }
 
+.hero-background p{
+  font-size: 1.2em;
+}
+
 .mladata-background {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
@@ -29,6 +33,11 @@
   height: auto;
   object-fit: cover;
   width: 100%;
+}
+
+
+h2{
+  font-size: 3em;
 }
 
 
@@ -50,21 +59,6 @@
 
 #carouselExampleFade{
   height: auto;
-}
-
-.team-card {
-  transition: all 0.3s ease;
-}
-
-.team-card:hover {
-  background-color: lightgray !important;
-  color: #181717 !important;
-}
-
-
-.gallery{
-  height: 200;
-  width: 300px;
 }
 
 
@@ -117,6 +111,11 @@
   background-color: #181717 !important;
 }
 
+
+.bg-light{
+  background-color: white;
+  color: #181717;
+}
 
 
 .fs-max {
@@ -172,4 +171,78 @@ footer {
 
 .custom-shape-divider-bottom-1766758569 .shape-fill {
   fill: #FFFFFF;
+}
+
+
+
+.gallery-wrapper {
+  padding: 3rem 0;
+}
+
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  aspect-ratio: 4 / 3; 
+  cursor: pointer;
+}
+
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transition: transform 0.4s ease;
+}
+
+
+.gallery-item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0.35)
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+.gallery-item:hover img {
+  transform: scale(1.06);
+}
+
+.gallery-item:hover::after {
+  opacity: 1;
+}
+
+.gallery-item:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+
+.parallax-section {
+  background-image: url("images/horska_krava.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+
+.parallax-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.parallax-section svg .shape-fill {
+  fill: #212529;
+}
+
+@media (max-width: 768px) {
+  .parallax-section {
+    background-attachment: scroll;
+  }
 }
